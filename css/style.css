@@ -1,0 +1,171 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Times New Roman, sans-serif;
+
+}
+header{
+	background: url(../img/first-bg.jpg) no-repeat center top / cover;
+	padding-bottom: 100px; 
+	}
+.container{
+	width: 950px;
+	margin: 0 auto;
+}
+.clearfix:after{
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+.logo{
+	margin-top: 40px;
+	float: left;
+}
+nav{
+	float: right;
+	
+}
+.menu{
+	padding: 0;
+	margin: 0;
+	display: block;
+	margin-top: 40px; 
+}
+.menu li{
+	float: left;
+	display: block;
+	margin-right: 40px;
+}
+.menu a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.titles_1{
+	font-size: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 150px;
+}
+h1{
+	font-size: 70px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 20px;
+}
+.button{
+	background: #ed9200;
+	color: #4a443a;
+	border-radius: 4px;
+	display: block;
+	width: 250px;
+	padding: 20px;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 30px;
+}
+.title h2{
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
+}
+.title p{
+	color: #777;
+	text-align: center;
+	font-size: 16px;
+	margin-top: 5px;
+}
+.title{
+	padding-top: 110px;
+}
+.sevice_item{
+	width: 280px;
+	float: left;
+	text-align: center;
+}
+.sevice_item p{
+	color: #777;
+	font-size: 14px;
+	line-height: 1.6em;
+}
+.sevice_item:last-child {
+	float: right;
+}
+.sevice_item:nth-child(2) {
+	margin-left: 60px;
+}
+.service{
+	margin-top: 80px;
+}
+#portfolio{
+	background: #ebe4e4;
+	padding-bottom: 100px;
+}
+.works img{
+	float: left;
+}
+.works img:nth-child(2){
+	margin-left: 34px;
+}
+.works img:last-child{
+	float: right;
+}
+.works{
+	padding-top: 70px;
+}
+.p{
+	width: 260px; 
+
+}
+.about_item {
+	display: flex;
+	margin-top: 50px;
+	margin-bottom: 50px; 
+}
+.about{
+
+	margin-left: 13%;
+}
+.about_item h3{
+	text-transform: uppercase;
+	
+}
+.about_item p{
+	line-height: 1.6em;
+	color: #777;
+}
+.about_item img{
+	height:  180px;
+	padding-top: 35px;
+}
+.about_item1 {
+	display: flex;
+	margin-bottom: 50px; 
+	margin-left: 31%;
+}
+.about_item1 img{
+	height:  180px;
+	padding-top: 35px;
+}
+.about_item1 p{
+	line-height: 1.6em;
+	color: #777;
+}
+.about_item1 h3{
+	text-transform: uppercase;
+}
+.footer{
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 50px;
+	}
